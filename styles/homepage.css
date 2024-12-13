@@ -1,0 +1,233 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto 0;
+  font-family: "Helvetica Neue", Arial, Sans-Serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  background-image: radial-gradient(black 0%, transparent);
+  border: 20px double darkgreen;
+  color: darkgreen;
+  border-radius: 15px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px auto;
+}
+
+.header__logo {
+  margin: 0px auto 10px;
+}
+
+.header__name {
+  line-height: 10px;
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 0 2px black;
+  text-align: center;
+}
+
+.header__number {
+  color: black;
+  line-height: 35px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 2px black;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: line-through;
+}
+
+.header__slogan {
+  line-height: 10px;
+  font-size: 35px;
+  text-shadow: 2px 0 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.nav__links {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.nav__link:hover {
+  color: darkgreen;
+}
+
+.customer-reviews {
+  margin: 0;
+  background-image: linear-gradient(white 0%, gray 100%);
+}
+
+.reviews {
+  max-width: 600px;
+  margin: 0 auto 0;
+  padding: 20px;
+}
+
+.review-image {
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  border-bottom: 5px solid darkgreen;
+}
+
+#reviews h2 {
+  text-align: center;
+  color: darkgreen;
+  text-shadow: 2px 0 2px black;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid darkgreen;
+  padding: 10px 0;
+}
+
+.review h3 {
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0 1px black;
+}
+
+.review p {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.review p:first-of-type {
+  color: #f39c12;
+}
+
+.info {
+  padding: 25px;
+  background-image: linear-gradient(gray 0%, white 50%, gray 100%);
+}
+
+.info__title {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 0 80px;
+  text-shadow: 0 0 2px black;
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.info__cards {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin: 80px 30px 80px;
+}
+
+.info__card-image {
+  margin: 10px auto 10px;
+  width: 350px;
+  height: 280px;
+  border-bottom: 10px solid darkgreen;
+}
+
+.info__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.info__card_stagger {
+  align-self: flex-end;
+}
+
+.info__card-title {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 700;
+  text-shadow: 0 0 2px black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.info__card-description {
+  margin: 10px;
+  font-size: 20px;
+  line-height:25px
+  color: darkgreen;
+  text-shadow: 0 0 2px black;
+}
+
+.payment {
+  border: 20px double lightslategray;
+  border-radius: 15px;
+}
+
+.payment-header {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+}
+
+.payment-cards {
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  margin: 0px auto;
+}
+
+.payment-card {
+  padding: 0 auto 0;
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  margin: 20px;
+  color: darkgreen;
+  text-shadow: 0 0 1px black;
+  background-color: gray;
+  text-align: center;
+  border-bottom: 10px solid black;
+}
