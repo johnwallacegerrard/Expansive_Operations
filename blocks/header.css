@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid gray;
+}
+
+.header__logo {
+  width: 600px;
+  height: 440px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.header__title {
+  text-align: center;
+}
+
+.header__name {
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.header__phone {
+  color: crimson;
+  font-size: 30px;
+}
+
+.header__slogan {
+  font-size: 20px;
+}
+
+.navbar {
+  margin: 20px 0 20px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: crimson;
+}

@@ -1,0 +1,15 @@
+.review {
+  text-align: center;
+  margin: 0;
+  max-width: 413px;
+  border-bottom: 4px solid white;
+}
+
+.review__image {
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+}
